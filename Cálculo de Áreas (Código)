@@ -1,0 +1,54 @@
+'''
+
+     Práctica 9 EDA I programa que calcula el área y perímetro de un triángulo, 
+        un círculo, un rectángulo y un trapecio. By Marcos Vega Alvarez
+'''
+
+#Área del triángulo:
+b=5  #base
+h=4  #altura
+area=b*h/2
+print("El área del triángulo es:" +str(area))
+#Perímetro del triángulo:
+l1=8 #Lado 1
+l2=7 #Lado 2
+l3=9 #Lado 3
+perimetro=l1+l2+l3
+print("El perimetro del triángulo es:" +str(perimetro))
+#Área del rectángulo:
+b=5  #base
+h=7  #altura
+area=b*h
+print("El área del rectángulo es:" +str(area))
+#Perímetro del rectángulo:
+l1=8 #Lado 1
+l2=7 #Lado 2
+l3=9 #Lado 3
+l4=3 #Lado 4
+perimetro=l1+l2+l3+l4
+print("El perímetro del rectángulo es:" +str(perimetro))
+#Área del circulo:
+r=5  #radio
+pi=3.14159  #pi
+area=pi*(r**2)
+print("El área del circulo es:" +str(area))
+#Perímetro del circulo:
+r=3  #radio
+pi=3.14159  #pi
+perimetro=pi*2*r
+print("El perímetro del circulo es:" +str(perimetro))
+#Área del Trapecio:
+B=15  #Base mayor
+b=12  #base menor
+h=6   #Altura
+area=((B+b)/2)*6
+print("El área del trapecio es:" +str(area))
+#Perímetro del trapecio:
+l1=5 #Lado 1
+l2=6 #Lado 2
+l3=10 #Lado 3
+l4=4 #Lado 4
+perimetro=l1+l2+l3+l4
+print("El perímetro del trapecio es:" +str(perimetro))
+print("Gracias por usar mi primer programa en el lenguaje Python")
+
